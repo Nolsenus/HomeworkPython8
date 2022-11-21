@@ -1,14 +1,7 @@
-import sqlite3
-
 from ui import start
 from logger import log
 from dbwork import init
 from pathlib import Path
-from dbwork import add
-from dbwork import lookup
-from dbwork import table_as_list_of_tuples
-from dbwork import update
-from dbwork import delete
 
 
 def main():
